@@ -7,7 +7,7 @@ public class CardOrderPuzzle : MonoBehaviour
     public bool isUnlocked = false;   
 
     [Header("Sequence")]
-    [Tooltip("IDs карт: 0,1,2,3")]
+    [Tooltip("card ids:")]
     public int[] sequence;            
 
     [Header("UI & Reward")]
@@ -57,3 +57,4 @@ public class CardOrderPuzzle : MonoBehaviour
         }
     }
 }
+
